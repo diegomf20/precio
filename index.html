@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Driver</title>
+</head>
+<body>
+    Km Recorrido: <input id="txt-km-total" type="text">
+    <br>
+    Km Ciudad: <input id="txt-km-ciudad" type="text">
+    <br>
+    Tiempo: <input id="txt-tiempo" type="text">
+    <br>
+    <button id="btn-calcular">Calcular</button>
+    <br>
+    <h1>
+        S/.<label id="txt-recorrido"></label>
+    </h1>
+    <!-- <button id="btn-sound">SOUND</button> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="driver.js"></script>
+    <script>
+        $('#btn-sound').click(function (params) {
+            var sound=new Audio();
+            sound.src="alarma.mp3";
+            sound.play();
+        });
+    </script>
+</body>
+</html>
