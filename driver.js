@@ -57,7 +57,7 @@ var precioBase2=2.8;
 var precioKM2=0.52;
 var precioMin2=0.12;
 
-var precioBaseCarretera2=6;
+var precioBaseCarretera2=7;
 var precioKMCarretera2=0.5;
 var precioMinCarretera2=0.10;
 
