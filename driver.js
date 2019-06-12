@@ -53,7 +53,7 @@ function calculoCosto(kmTotal,kmCiudad,tiempo) {
 /**
  * Formula 2
  */
-var precioBase2=2.8;
+var precioBase2=2.60;
 var precioKM2=0.52;
 var precioMin2=0.12;
 
