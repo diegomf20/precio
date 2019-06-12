@@ -64,9 +64,9 @@ var precioMinCarretera2=0.10;
 function calculoCosto2(kmTotal,kmCiudad,tiempo) {
     var precioBruto=0;
     if(kmTotal==kmCiudad){
-        precioBruto=precioBruto+precioBase2+kmTotal*precioKM2+kmTotal*precioMin2;
+        precioBruto=precioBruto+precioBase2+kmTotal*precioKM2+tiempo*precioMin2;
     }else{
-        precioBruto=precioBruto+precioBaseCarretera2+kmTotal*precioKMCarretera2+kmTotal*precioMinCarretera2;
+        precioBruto=precioBruto+precioBaseCarretera2+kmTotal*precioKMCarretera2+tiempo*precioMinCarretera2;
     }
     return precioBruto;
 }
